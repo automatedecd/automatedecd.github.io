@@ -13,7 +13,7 @@ var newHTMLsidebar =`<ul>
 								</h4>
 								<h2> ECD E-Tool 4 Tutorial </h2>
 
-								<span>FEBRUARY 6, 2020</span>
+								<span>MAY 9, 2020</span>
 
 							</li>
 							<li>
@@ -24,12 +24,12 @@ var newHTMLsidebar =`<ul>
 											<img src="blog-images/technical-manual/header-img.png" alt="" height = "50px">
 										</a>
 										<h2>Phil ECCD Techninal and Manual</h2>
-										<span>FEBRUARY 3, 2020</span>
+										<span>MAY 12, 2020</span>
 									</li>
 									<li>
 										<a href="blog-reset-epson-l-series-tutorial.html"><img src="blog-images/reset-epson/3.jpg" alt="" height = "50px"></a>
 										<h2>How to Reset Epson Printer</h2>
-										<span>May 11, 2020</span>
+										<span>May 10, 2020</span>
 									</li>
 								</ul>
 							</li>
