@@ -204,7 +204,13 @@ img {
 	animation-duration: 1s;
 	animation-timing-function: ease;
 }
+
+@keyframes HomeHeader{
+	from{font-size: 0px;opacity: 0;}
+	to{font-size: 60px;opacity: 1;}
+	}
 #body.home .header div h1 {
+	opacity: 0;
 	color: #FFFFFF;
 	display: block;
 	float: right;
@@ -219,6 +225,11 @@ img {
 	text-transform: uppercase;
 	width: 503px;
 	z-index: 60;
+	animation:HomeHeader;
+	animation-duration: 1s;
+	animation-timing-function: ease;
+	/*animation-delay: -0.5s;*/
+	animation-fill-mode: forwards;
 }
 #body.home .header div h2 {
 	color: #FFFFFF;
@@ -1327,6 +1338,18 @@ img {
 	background-color: #620031;
 }
 
+@keyframes headerh2{
+	from{font-size: 0px;}
+	to{font-size: 17px;}
+}
+#body.home .header div h2{
+	color:#ffffff;
+	text-shadow: 2px 2px 8px #000000;
+	animation:headerh2;
+	animation-duration: 1.8s;
+	animation-timing-function: ease;
+	animation-fill-mode: forwards;
+}
 #body.home .header div h1, #body.home .header div h2{
 	color:#ffffff;
 	text-shadow: 2px 2px 8px #000000;
