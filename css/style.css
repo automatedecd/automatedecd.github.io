@@ -454,7 +454,7 @@ img {
 #body.home .footer div ul li a:hover img {
 	filter: alpha(opacity=70);/* Needed for IE8 and old versions */
 	opacity: 0.7;
-}
+} 
 #body.home .footer div ul li a span {
 	/*background: url(../images/icons.png) no-repeat 0 -152px;*/
 	display: block;
