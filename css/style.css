@@ -187,7 +187,11 @@ img {
 	padding: 0 10px;
 	position: relative;
 }
-#body.home .header div img.satellite {
+@keyframes show {
+	from{width: 100px;}
+	to{width: 450px;}
+}
+#body.home .header div img.laptop-forms {
 	display: block;
 	left: 10px;
 	margin: 0;
@@ -196,6 +200,9 @@ img {
 	top: 41px;
 	width: auto;
 	z-index: 50;
+	animation: show;
+	animation-duration: 1s;
+	animation-timing-function: ease;
 }
 #body.home .header div h1 {
 	color: #FFFFFF;
@@ -229,8 +236,14 @@ img {
 	width: 288px;
 	z-index: 60;
 }
+
+@keyframes more{
+	from{background-color: #8b8b8b;border-radius: 50px;opacity: 0;}
+	to{background-color: #630031;border-radius: 0; opacity: 1;}
+}
 #body.home .header div a.more {
-	background-color: #000000;
+	opacity: 0;
+	background-color: #630031;
 	color: #a3a3a3;
 	display: block;
 	float: right;
@@ -246,6 +259,12 @@ img {
 	position: relative;
 	width: 180px;
 	z-index: 55;
+	animation:more;
+	animation-duration: 1s;
+	animation-timing-function: ease;
+	animation-delay: 1s;
+	animation-fill-mode: forwards;
+
 }
 #body.home .header div a.more:hover {
 	background-color: #ab000b;
@@ -1308,12 +1327,12 @@ img {
 	background-color: #620031;
 }
 
-#body.home .header div h1{
+#body.home .header div h1, #body.home .header div h2{
 	color:#ffffff;
 	text-shadow: 2px 2px 8px #000000;
-	
-	
 }
+
+
 /*----------------------------------------footer-styles---------------------------------------*/
 #footer {
 	margin: 0;
