@@ -80,6 +80,13 @@
 				overflow: visible;
 				padding: 40px 0 40px;
 				}
+			
+				
+				}
+			#body {
+				background-color: #270c0b;
+				
+				}
 		</style>
 		<div id="body">
 			<div class="header">
@@ -361,13 +368,15 @@
 									var disqus_config = function () {
 										this.page.url = 'https://automatedecd.github.io';  // Replace PAGE_URL with your page's canonical URL variable
 										this.page.identifier = 'indetifier2'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-										this.page.title = 'Blog - ecd-e-tool4 - automatedecd';
+										// this.page.title = 'Blog - ecd-e-tool4 - automatedecd';
 									};
-									
-									
+
+									// Replace Your website shortname is with its value found in general setting
+									// to seaparete thread or instance
+									//s.src ='https://Your website shortname is.disqus.com/embed.js';
 									(function() { // DON'T EDIT BELOW THIS LINE
 									var d = document, s = d.createElement('script');
-									s.src = 'httpsautomatedecdgithubio.disqus.com/embed.js';
+									s.src = 'https://httpsautomatedecdgithubio.disqus.com/embed.js'; // <----- s.src ='https://Your website shortname is.disqus.com/embed.js';
 									s.setAttribute('data-timestamp', +new Date());
 									(d.head || d.body).appendChild(s);
 									})();
