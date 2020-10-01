@@ -236,7 +236,7 @@ img {
 	display: block;
 	float: right;
 	font-family: Arial;
-	font-size: 17px;
+	font-size: 30px;
 	font-weight: normal;
 	line-height: 43px;
 	margin: 0 0 36px;
@@ -244,7 +244,7 @@ img {
 	position: relative;
 	text-align: right;
 	text-transform: uppercase;
-	width: 288px;
+	width: 350px;
 	z-index: 60;
 }
 
