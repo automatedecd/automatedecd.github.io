@@ -1472,3 +1472,21 @@ img {
 #wix a img {
 	width: 100%;
 }
+
+#body.home .header div div {
+	color: #ffffff;
+	display: block;
+	float: right;
+	font-family: Arial;
+	font-size: 13px;
+	text-shadow: 2px 2px 2px #000000;
+	font-weight: normal;
+	line-height: 43px;
+	margin: 0 0 36px;
+	padding: 0 10px 0 10px;
+	position: relative;
+	text-align: right;
+	text-transform: uppercase;
+	width: 600px;
+	z-index: 60;
+}
